@@ -67,7 +67,8 @@
             className: "latest_blog_container",
             children: [
               (0, i.jsx)("h3", {
-                children: "Stay updated. Subscribe for our latest blog",
+                children:
+                  "     Empowering Government Agencies with Reliable IT Solutions.",
               }),
               (0, i.jsx)("div", {
                 className: "form_container relative",

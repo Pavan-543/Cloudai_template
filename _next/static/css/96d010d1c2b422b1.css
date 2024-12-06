@@ -1,11 +1,11 @@
 .digital_process {
   padding: 3rem 0;
-  background: linear-gradient(1turn, #fff 34%, #dfe9e9 67%);
+  /* background: linear-gradient(1turn, #fff 34%, #dfe9e9 67%); */
 }
 main .top_txt {
   font-size: 1.1rem;
   line-height: 1.65rem;
-  color: var(--gray);
+  color: #00256a;
   margin: 0.5rem auto 1rem;
   width: 65%;
   text-align: center;
@@ -140,6 +140,10 @@ main .splide__pagination__page.is-active {
 .slide-up .box p {
   position: relative;
   z-index: 10;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
 }
 .slide-up .box:hover p {
   color: var(--white);
@@ -265,7 +269,7 @@ main .splide__pagination__page.is-active {
   border-radius: 40px;
 }
 .benefits_container {
-  background: var(--orange-light);
+  background: #cee8ff9e;
   padding: 4rem 0 5rem;
 }
 .benefits_details_cont {
@@ -312,7 +316,7 @@ main .splide__pagination__page.is-active {
 .benefits_details_cont ul li .left_description p {
   font-size: 1rem;
   line-height: 1.5rem;
-  color: var(--gray);
+  color: #00256a;
   font-weight: 500;
   margin: 0.5rem 0 1rem;
   font-family: var(--Raleway);
@@ -351,7 +355,7 @@ main .splide__pagination__page.is-active {
 .process_section .details p {
   font-size: 1.5rem;
   line-height: 2.15rem;
-  color: var(--blue);
+  color: #00256a;
   font-weight: 500;
   margin: 0.5rem 0 1rem;
   font-family: var(--Raleway);
@@ -412,7 +416,7 @@ main .splide__pagination__page.is-active {
 .media_tect_container p {
   font-size: 1.1rem;
   line-height: 1.5rem;
-  color: var(--gray);
+  color: #00256a;
   font-weight: 500;
   margin: 1rem 0 1.5rem;
   font-family: var(--Raleway);
@@ -907,7 +911,7 @@ main .splide__pagination__page.is-active {
   }
   .digital_process {
     padding-top: 0;
-    background: linear-gradient(1turn, #fff 34%, #dfdfdf 67%);
+    /* background: linear-gradient(1turn, #fff 34%, #dfdfdf 67%); */
     padding-bottom: 1rem;
   }
   main .top_txt {
