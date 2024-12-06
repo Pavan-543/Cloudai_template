@@ -558,7 +558,7 @@ header .ads-box {
   line-height: 3.5rem;
 }
 .banner_container.inner {
-  background: url(/images/bnr_img_bg.svg) no-repeat 100% 100%;
+  /* background: url(/images/bnr_img_bg.svg) no-repeat 100% 100%; */
   padding: 6rem 0 4rem;
   background-size: contain;
 }
@@ -3466,4 +3466,32 @@ footer .form_container {
 }
 .activeMenuTab {
   color: var(--yellow) !important;
+}
+
+/* about us page styles */
+.about {
+  position: relative; /* Make sure the element can hold its pseudo-element */
+  border-radius: 1728px;
+  background: transparent; /* Remove the background from .about itself */
+  z-index: 9;
+}
+
+.about::before {
+  content: ''; /* Creates the pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 1728px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 37, 106, 0.80) 0%, rgba(255, 255, 255, 0.00) 100%);
+  filter:  blur(217.30734252929688px);
+  z-index: -1; /* Place the pseudo-element behind the text */
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 999; /* Ensure text remains above the background */
 }
